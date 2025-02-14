@@ -1,5 +1,5 @@
--- Author: Lillian Kelting
--- Last edited: March 30th, 2022
+-- Author: Brad Paynter
+-- Last edited: Feb 14, 2025
 --
 help([==[
 
@@ -18,14 +18,14 @@ whatis([==[Description: UCO exclusive Python data science module. Loads Sympy, M
 
 conflict("Python-Data-Science")
 
-if not ( isloaded("sympy/1.7.1-foss-2020b") ) then
-    load("sympy/1.7.1-foss-2020b")
+if not ( isloaded("sympy/1.12-gfbf-2023b") ) then
+    load("sympy/1.12-gfbf-2023b")
 end
 
-if not ( isloaded("matplotlib/3.3.3-foss-2020b") ) then
-    load("matplotlib/3.3.3-foss-2020b")
+if not ( isloaded("matplotlib/3.8.2-gfbf-2023b") ) then
+    load("matplotlib/3.8.2-gfbf-2023b")
 end
 
-if not ( isloaded("SciPy-bundle/2020.11-foss-2020b") ) then
-    load("SciPy-bundle/2020.11-foss-2020b")
+if not ( isloaded("SciPy-bundle/2023.11-gfbf-2023b") ) then
+    load("SciPy-bundle/2023.11-gfbf-2023b")
 end
